@@ -1,0 +1,88 @@
+.Inputbar{
+  width : 87vw;
+  height : 6vh;
+  margin : 1rem;
+  border-radius: 1%;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-left: 1rem;
+  height: 50px;
+}
+
+.grid-item {
+  padding: 10px;
+  text-align: start;
+  flex: 1;
+}
+.input-checkbox {
+  width: 20px; 
+  max-width: 20px; 
+}
+    
+.selected {
+   background-color:lightgrey ;
+  }
+
+
+.hr-width{
+  width : 90%;
+  margin-top:-0.5rem;
+}
+
+.entry{
+  margin-left : 1rem;
+  margin-right : 1rem;
+}
+
+.item1{
+  margin-left:2rem;
+}
+
+.item2,
+.item3,
+.item4,
+.item5 {
+  font-weight:bold;
+  font-family:sans-serif;
+  /* text-align:center; */
+}
+
+  .edit-btn{
+    margin-right:1px;
+    border: none;
+    background:white;
+    width: 30px;
+    height:30px;
+  }
+
+  .delete-btn{
+    border:none;
+    background:white;
+    color:red;
+    width: 30px;
+    height:30px;
+    margin-left:-2px;
+  }
+
+  .save-btn{
+    border:none;
+    background:white;
+    color:green;
+    width: 30px;
+    height:30px;
+    margin-left:-2px;
+  }
+
+  .undo-btn{
+    border:none;
+    background:white;
+    color:red;
+    width: 30px;
+    height:30px;
+    margin-left:-2px;
+  }
+ 

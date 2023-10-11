@@ -1,0 +1,53 @@
+main {
+  text-align: center;
+ 
+}
+
+.circle {
+  width: 30px; 
+  height: 30px;
+  border-radius: 50%; 
+  background-color: #1990FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff; 
+  font-size: 16px; 
+  margin-left:1rem;
+  border-color:#1990FF;
+}
+
+.deleteSelected{
+  width : 150px;
+  height : 50px;
+  border: 1px solid black;
+  border-radius : 20px;
+  padding : 0.5rem;
+  background-color: #FF5071;
+  margin-left: 5rem;
+  margin-right : 5rem;
+  
+  
+}
+.footer{
+  display:flex;
+  justify-content: start;
+}
+.buttons{
+  display:flex;
+  justify-content: space-between;
+  align-items:center
+  
+}
+
+.active{
+  background:white ;
+  border:1px solid #1990FF ;
+  color:#1990FF ;
+}
+
+.reach-end{
+    background:lightgrey;
+    color:grey;
+    border:none ;
+}
